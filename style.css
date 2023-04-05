@@ -1,75 +1,71 @@
-/* Estilos para a barra de nave
-
-color: #fff; /* Cor do texto do link /
-display: block; / Exibir link em bloco para ocupar toda a largura da célula /
-padding: 15px; / Espaçamento interno do link /
-text-decoration: none; / Remover sublinhado do link */
+body {
+	background-color: #222;
+	color: #eee;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
-nav li a:hover {
-background-color: #000; /* Cor de fundo do link ao passar o mouse */
+header {
+	background-color: #333;
+	color: #eee;
+	padding: 10px;
 }
 
-/* Estilos para a grade de miniaturas de vídeo /
-.videos {
-display: grid;
-grid-template-columns: repeat(3, 1fr); / Três colunas de largura igual /
-grid-gap: 20px; / Espaçamento entre as miniaturas */
+h1 {
+	margin: 0;
 }
 
-.video-player {
-margin-bottom: 20px; /* Espaçamento abaixo do reprodutor de vídeo */
+main {
+	padding: 10px;
 }
 
-.video-player h1 {
-font-size: 24px; /* Tamanho da fonte do título do vídeo /
-margin-bottom: 10px; / Espaçamento abaixo do título do vídeo */
+section {
+	margin: 20px 0;
 }
 
-.video-player p {
-font-size: 16px; /* Tamanho da fonte da descrição do vídeo /
-color: #888; / Cor do texto da descrição do vídeo /
-margin-bottom: 20px; / Espaçamento abaixo da descrição do vídeo */
+h2 {
+	font-size: 1.2rem;
+	margin: 0;
 }
 
-.video-actions {
-margin-bottom: 20px; /* Espaçamento abaixo dos botões de ação */
+form {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.video-actions button {
-background-color: #f00; /* Cor de fundo do botão /
-color: #fff; / Cor do texto do botão /
-border: none; / Remover borda do botão /
-padding: 10px; / Espaçamento interno do botão /
-margin-right: 10px; / Espaçamento à direita do botão /
-cursor: pointer; / Mudar o cursor do mouse ao passar sobre o botão */
+label {
+	display: block;
+	flex: 1 1 100%;
+	margin: 10px 0;
 }
 
-.video-actions button:hover {
-background-color: #000; /* Cor de fundo do botão ao passar o mouse */
+input[type="text"] {
+	background-color: #444;
+	border: none;
+	color: #eee;
+	font-size: 1.2rem;
+	padding: 10px;
+	width: 100%;
 }
 
-/* Estilos para a barra lateral /
-.sidebar {
-background-color: #f9f9f9; / Cor de fundo da barra lateral /
-padding: 20px; / Espaçamento interno da barra lateral */
+button {
+	background-color: #999;
+	border: none;
+	color: #222;
+	cursor: pointer;
+	font-size: 1.2rem;
+	padding: 10px 20px;
+	transition: background-color 0.2s ease-in-out;
 }
 
-.sidebar h2 {
-font-size: 18px; /* Tamanho da fonte do título da lista /
-margin-bottom: 10px; / Espaçamento abaixo do título da lista */
+button:hover {
+	background-color: #eee;
+	color: #222;
 }
 
-.sidebar ul {
-list-style-type: none; /* Remover marcadores da lista /
-margin: 0; / Remover margem da lista /
-padding: 0; / Remover preenchimento da lista */
-}
-
-.sidebar li {
-margin-bottom: 10px; /* Espaçamento entre os itens da lista */
-}
-
-.sidebar li a {
-color: #000; /* Cor do texto do link na barra lateral */
+p {
+	font-size: 1.2rem;
+	margin: 0;
+	padding: 10px;
 }
