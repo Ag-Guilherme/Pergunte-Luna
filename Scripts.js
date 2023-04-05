@@ -1,4 +1,4 @@
-const openai = new OpenAI('YOUR_API_KEY');
+const openai = new OpenAI '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';
 
 function generateAnswer(event) {
 	event.preventDefault();
@@ -20,7 +20,7 @@ function generateAnswer(event) {
 			console.log(error);
 		});
 }
-const openai = new OpenAI('YOUR_API_KEY');
+const openai = new OpenAI'sk-CdndayIV4Ph73FGmsUbMT3BlbkFJLi9hMdg6f7V02GumSKXcOUR_API_KEY';
 
 function generateAnswer(event) {
 	event.preventDefault();
