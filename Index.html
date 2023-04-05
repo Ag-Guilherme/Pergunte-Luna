@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GPT-3 Demo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdn.jsdelivr.net/npm/@openai/api@0.2.4/dist/openai.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>GPT-3 Demo</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Faça uma pergunta</h2>
+			<form onsubmit="generateAnswer(event)">
+				<label>
+					<input type="text" name="question" placeholder="Digite sua pergunta">
+				</label>
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+		<section>
+			<h2>Resposta</h2>
+			<p id="answer"></p>
+		</section>
+	</main>
+</body>
+</html>
